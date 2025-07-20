@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100vw; /* Viewport Width */
+  overflow-x: hidden; /* скрывает горизонтальный скролл */
+  background-color: #111827; /* bg-gray-900 */
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
